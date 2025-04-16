@@ -167,12 +167,12 @@
         <h2 class="title is-3">Overview</h2>
         <div class="content has-text-justified">
 
-        <div class="body" display="flex" justify-content="center">
-          <img poster="" src="static/images/cbf_filter.png" alt="MY ALT TEXT"/>
+        <div class="body">
+          <img class="is-block mx-auto" poster="" src="static/images/cbf_filter.png" alt="MY ALT TEXT"/>
             <!-- Your video here -->
           <div class="subtitle has-text-centered">
             <p>
-              We define <em>responsibility</em> as being how much each agent contributes to a shared control barrier function (CBF) safety constraint, and can solve for the safe control using a quadratic program (QP). With advances in differentiable optimization, we can then learn the responsibility allocations that solve this QP and infer for a current state the responsibility each agent has in satisfying the CBF constraint.
+              We define <em>responsibility</em> as being how much each agent contributes to a shared control barrier function (CBF) safety constraint, and given the agents' desired control, we can solve for the safe control using a quadratic program (QP). With advances in differentiable optimization, we can then learn the responsibility allocations that solve this QP and infer, for a given state, the responsibility each agent has in satisfying the CBF constraint.
             </p>
           </div>
         </div>
